@@ -1,0 +1,8 @@
+gunicorn
+streamlit==1.9.0
+st-annotated-text
+streamlit-option-menu
+click<=8.0.4
+streamlit_lottie
+requests
+
