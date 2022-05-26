@@ -5,4 +5,5 @@ streamlit-option-menu
 click<=8.0.4
 streamlit_lottie
 requests
+protobuf==3.20.1 
 
