@@ -61,7 +61,7 @@ if __name__ == '__main__':
 options = st.multiselect('SELECT GENRE(S):', genres)
 if options:
             imdb_score = st.slider('IMDb score:', 1, 10, 8)
-            n = st.number_input('Number of movies:', min_value=1, max_value=20, step=1)
+            n = st.number_input('Number of movies:', min_value=1, max_value=20, step=3)
             st.write("*To learn more about the movie, click on the IMDb link.*")
 
             test_point = [1 if genre in options else 0 for genre in genres]
